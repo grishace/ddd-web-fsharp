@@ -16,7 +16,7 @@
 
 ![Web Development With F#](./images/title-fsharp.jpg)
 
-<!-- Image by  -->
+<!-- Image from https://theforbiddenknowledgeofenoch.blogspot.com/2014/01/who-are-followers-of-esoteric.html -->
 
 <small>Grigoriy Belenkiy<br/>
 Software engineer, S&amp;P Global<br/>
@@ -29,37 +29,64 @@ October 28, 2016</small>
 
 ### Agenda
 
-- F#
-- ASP.NET WebAPI/MVC
-- Suave/Freya
-- WebSharper/Fable
+* F#
+* ASP.NET WebAPI/MVC
+* Suave/Freya
+* WebSharper/Fable
 
 ***
 
 ### Why F#?
 
-- 
+* Functional
+* Object-oriented
 
-' 
+' Multi-paradigm
+
 ---
 
 ### Functional
 
+```fsharp
+type WebServer = HttpRequest -> Async<HttpResponse option>
+```
+
+' SOLID  and all design patterns replaced with function composition
+' example - the essence of a web-server
 
 ---
 
 ### Object-oriented
 
----
+```fsharp
+type Startup (env:IHostingEnvironment)=
 
-### Multi-paradigm
+  // This method gets called by the runtime. Use this method to configure 
+  // the HTTP request pipeline.
+  member this.Configure(app:IApplicationBuilder, env:IHostingEnvironment,
+    loggerFactory: ILoggerFactory) =
 
-- 
+    loggerFactory
+      .AddConsole(configuration.GetSection("Logging"))
+      .AddDebug()
+      |> ignore
 
-' 
+      app.UseMvc() |> ignore
+```
+
+' .NET language - need to coexist and interop with other languages
+' Can use all (almost?) libraries/packages created for C#
+' example - from generated ASP.NET Core MVC application
 
 ***
 
+### F#zzBuzz
+
+![FizzBuzz](./images/fizzbuzz.jpg)
+
+' https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews
+
+***
 ### Books
 
 <table class="no-borders-table"><tr valign="top">
