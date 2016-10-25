@@ -14,7 +14,7 @@
 
 ### Web Development With F#
 
-![Web Development With F#](./images/.jpg)
+![Web Development With F#](./images/title-fsharp.jpg)
 
 <!-- Image by  -->
 
@@ -30,15 +30,13 @@ October 28, 2016</small>
 ### Agenda
 
 - F#
-- WebAPI
-- ASP.NET MVC
-- Suave
-- WebSharper
-- Fable
+- ASP.NET WebAPI/MVC
+- Suave/Freya
+- WebSharper/Fable
 
 ***
 
-### F#
+### Why F#?
 
 - 
 
@@ -62,24 +60,24 @@ October 28, 2016</small>
 
 ***
 
-### Resources
+### Books
 
-<table class="no-borders-table"><tr>
-<td width="33%"><a href="" title=""><img alt="" src="./images/"/></a></td>
-<td width="33%"><a href="" title=""><img alt="" src="./images/"/></a></td>
-<td width="33%"><a href="" title=""><img alt="" src="./images/"/></a></td>
+<table class="no-borders-table"><tr valign="top">
+<td width="33%"><a href="http://shop.oreilly.com/product/0636920026099.do" title="Building Web, Cloud, and Mobile Solutions with F#"><img alt="" src="./images/web-fsharp.jpg"/></a></td>
+<td width="33%"><a href="https://www.amazon.com/Expert-F-4-0-Don-Syme/dp/1484207416/" title="Expert F# 4.0"><img alt="" src="./images/expert-fsharp.jpg"/></a></td>
+<td width="33%"><a href="http://products.tamizhvendan.in/fsharp-applied/" title="F# Applied"><img alt="F# Applied" src="./images/fsharp-applied.jpg"/></a></td>
 </tr>
 <tr><td>
-<small><h3></h3>
-<h4></h4></small></td>
+<small><h3>Building Web, Cloud, and Mobile Solutions with F#</h3>
+<h4>by Daniel Mohl</h4></small></td>
 
 <td>
-<small><h3></h3>
-<h4></h4></small></td>
+<small><h3>Expert F# 4.0</h3>
+<h4>by Don Syme, Adam Granicz, Antonio Cisternino</h4></small></td>
 
 <td>
-<small><h3></h3>
-<h4></h4></small></td>
+<small><h3>F# Applied</h3>
+<h4>by Tamizhvendan S</h4></small></td>
 </tr></table>
 
 ***
