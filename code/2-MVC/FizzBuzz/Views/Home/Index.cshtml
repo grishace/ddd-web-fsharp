@@ -1,0 +1,30 @@
+@model FizzBuzz.Models.FizzBuzzModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div align="center">
+    <img src="/images/fizzbuzz.jpg" alt="FizzBuzz" style="padding-top: 50px;"/>
+
+    <div>
+        @using(Html.BeginForm("DoPost", "Home", FormMethod.Post))
+        {
+            <div>
+                @Html.LabelFor(m => m.Number)
+                @Html.TextBoxFor(m => m.Number)
+                <input type="submit" value="Generate"/>
+            </div>
+        }
+    </div>
+
+    <div id="fizz-buzz">
+        <ol>
+        @foreach (var item in Model.FizzBuzz) {
+            <li>@item</li>
+        }
+        </ol>
+    </div>
+
+</div>
+
