@@ -4,6 +4,7 @@ open System
 open System.IO
 open Microsoft.Extensions.Configuration
 open Microsoft.AspNetCore.Hosting
+open FizzBuzz
 
 [<EntryPoint>]
 let main argv =
