@@ -32,9 +32,10 @@ October 28, 2016</small>
 * F#
 * ASP.NET WebAPI/MVC
 * Suave
-* WebSharper/Fable
+* WebSharper
 
 ' Freya - similar ideas to Suave - function composition, but could not build the HelloWorld example
+' Fable - promising, but hard to implement even such simple example as FB
 
 ***
 
@@ -88,7 +89,48 @@ type Startup (env:IHostingEnvironment)=
 
 ' https://en.wikipedia.org/wiki/Fizz_buzz#Programming_interviews
 
+---
+
+### ASP.NET Core WebAPI/MVC
+
+![ASP.NET Core](./images/core-sticker.png)
+
+> ASP.NET Core is a new open-source and cross-platform framework 
+> for building modern cloud based internet connected applications, 
+> such as web apps, IoT apps and mobile backends.
+
+[https://www.asp.net/core](https://www.asp.net/core)
+
+' https://dribbble.com/shots/3005811-Core-Sticker
+' by Pablo Iglesias
+
+---
+
+### Suave
+
+![ASP.NET Core WebAPI](./images/suave_400x400.png)
+
+> Suave is a simple web development F# library providing a 
+> lightweight web server and a set of combinators to manipulate 
+> route flow and task composition.
+
+[https://suave.io](https://suave.io)
+
+---
+
+### WebSharper
+
+![WebSharper](./images/logo-websharper-icon.png)
+
+> WebSharper is a framework and toolset for developing 
+> web/mobile applications and web services entirely in 
+> C# or F# (of a mix of the two languages) with strongly-typed
+> client-server communication and site navigation.
+
+[http://websharper.com](http://websharper.com)
+
 ***
+
 ### Books
 
 <table class="no-borders-table"><tr valign="top">
