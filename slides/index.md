@@ -31,8 +31,10 @@ October 28, 2016</small>
 
 * F#
 * ASP.NET WebAPI/MVC
-* Suave/Freya
+* Suave
 * WebSharper/Fable
+
+' Freya - similar ideas to Suave - function composition, but could not build the HelloWorld example
 
 ***
 

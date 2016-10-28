@@ -1,0 +1,24 @@
+{% include "_header.liquid" %}
+
+<div align="center">
+    <img src="/images/fizzbuzz.jpg" alt="FizzBuzz" style="padding-top: 50px;"/>
+
+    <div>
+	<form action="/" method="post">  
+            <div>
+                <label for="Number">Number</label>
+                <input id="Number" name="Number" type="text" value="{{ model.number }}" />
+                <input type="submit" value="Generate"/>
+            </div>
+    </div>
+
+    <div id="fizz-buzz">
+        <ol>
+        {% for item in model.fizz_buzz -%}
+          <li>{{ item }}</li>
+        {% endfor -%}
+        </ol>
+    </div>
+</div>
+
+{% include "_footer.liquid" %}
